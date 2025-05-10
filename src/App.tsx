@@ -1,6 +1,4 @@
 import "./App.css";
-import BearWithFlowers from "../public/cute-love-bear-roses.gif";
-import BearsKissing from "../public/bear-kiss-bear-kisses.gif";
 import { useState } from "react";
 
 function App() {
@@ -12,7 +10,7 @@ function App() {
       {saidYes ? (
         <>
           <img
-            src={BearsKissing}
+            src="/bear-kiss-bear-kisses.gif"
             alt="Brown bear kissing white bear"
             className="mx-auto mb-[1rem]"
           />
@@ -23,7 +21,7 @@ function App() {
       ) : (
         <>
           <img
-            src={BearWithFlowers}
+            src="/cute-love-bear-roses.gif"
             alt="Bear jumping with flowers in hand"
             className="mx-auto"
           />
