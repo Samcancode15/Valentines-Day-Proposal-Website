@@ -1,35 +1,49 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import BearWithFlowers from "../public/cute-love-bear-roses.gif";
+import BearsKissing from "../public/bear-kiss-bear-kisses.gif";
+import { useState } from "react";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [saidYes, setSaidYes] = useState(false);
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      {saidYes ? (
+        <>
+          <img
+            src={BearsKissing}
+            alt="Brown bear kissing white bear"
+            className="mx-auto mb-[1rem]"
+          />
+          <p className="text-4xl font-medium select-none text-center">
+            Yayy thank you! I <span className="text-red-500">love</span> you!
+          </p>
+        </>
+      ) : (
+        <>
+          <img
+            src={BearWithFlowers}
+            alt="Bear jumping with flowers in hand"
+            className="mx-auto"
+          />
+          <p className="text-4xl font-medium select-none text-center">
+            Will you be my <span className="text-red-500">Valentines</span>?
+          </p>
+          <div className="flex flex-row items-center justify-center space-x-4 mt-2">
+            <div className="select-none bg-black text-white px-6 py-2 rounded-xl cursor-pointer text-xl">
+              No
+            </div>
+            <div
+              className="select-none bg-red-500 text-white rounded-xl cursor-pointer transition-all text-xl px-6 py-2"
+              onClick={() => setSaidYes(true)}
+            >
+              Yes
+            </div>
+          </div>
+        </>
+      )}
     </>
-  )
+  );
 }
 
-export default App
+export default App;
