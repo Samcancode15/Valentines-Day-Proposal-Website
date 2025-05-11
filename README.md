@@ -15,7 +15,7 @@ Watch the demo and coding process on YouTube:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/ImSamBoi/Valentines-Day-Proposal-Website.git
+   git clone https://github.com/Samcancode15/Valentines-Day-Proposal-Website.git
    cd Valentines-Day-Proposal-Website
    ```
 
