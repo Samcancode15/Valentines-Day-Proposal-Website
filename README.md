@@ -10,6 +10,10 @@ Watch the demo and coding process on YouTube:
   <img src="https://img.youtube.com/vi/60mBetUNS88/maxresdefault.jpg" alt="Watch on YouTube" width="600">
 </a>
 
+Or try the **live demo** yourself here:
+
+[🌹 Live Demo - Valentine’s Day Proposal](https://valentines-day-proposal-website.vercel.app/)
+
 ## How to Use
 
 1. Clone the repository:
