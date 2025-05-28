@@ -52,4 +52,4 @@ Watch the demo and coding process on YouTube:
 
 This project is licensed under the MIT License. Feel free to modify and share it!
 
-Made with 💕 using Next.js.
+Made with 💕 using React.js.
