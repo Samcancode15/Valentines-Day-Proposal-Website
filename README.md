@@ -33,12 +33,12 @@ Watch the demo and coding process on YouTube:
 
 4. Open the website in your browser:
 
-   Visit http://localhost:3000
+   Visit http://localhost:5173
 
 ## Project Structure
 
 ```bash
-/valentines-day-proposal
+/Valentines-Day-Proposal
 │── /public
 │   ├── cute-love-bear-roses-ou7zho5oosxnpo6k.gif   # Bear GIF shown on No click
 │   ├── bear-kiss-bear-kisses.gif      # Bear kiss GIF shown on Yes click
