@@ -1,6 +1,6 @@
 # Valentine's Day Proposal
 
-A simple and interactive Next.js project where users are asked, "Will you be my Valentine?" with Yes and No buttons. Clicking **No** makes the **Yes** button grow, while clicking **Yes** reveals a cute bear kiss GIF along with a sweet message.
+A simple and interactive React.js project where users are asked, "Will you be my Valentine?" with Yes and No buttons. Clicking **No** makes the **Yes** button grow, while clicking **Yes** reveals a cute bear kiss GIF along with a sweet message.
 
 ## Demo
 
